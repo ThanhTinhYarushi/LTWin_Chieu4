@@ -39,13 +39,11 @@ namespace TranThanhTinh_QuanLyThuVien
             {
                 ListViewItem lvi = lsv_NhanVien.Items.Add(dt.Rows[i][0].ToString());
 
-                
                 lvi.SubItems.Add(dt.Rows[i][1].ToString());
                 lvi.SubItems.Add(dt.Rows[i][2].ToString());
                 lvi.SubItems.Add(dt.Rows[i][3].ToString());
                 lvi.SubItems.Add(dt.Rows[i][4].ToString());
                 lvi.SubItems.Add(dt.Rows[i][5].ToString());
-
             }
         }
 
@@ -80,7 +78,7 @@ namespace TranThanhTinh_QuanLyThuVien
             cbo_BangCap.DisplayMember = "TenBangcap";
             cbo_BangCap.ValueMember = "MaBangcap";
         }
-
+        // Lấy vị trí dsnv
         private void lsv_NhanVien_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (lsv_NhanVien.SelectedIndices.Count > 0)
@@ -99,14 +97,14 @@ namespace TranThanhTinh_QuanLyThuVien
                 cbo_BangCap.FindString(lsv_NhanVien.SelectedItems[0].SubItems[5].Text);
             }
         }
-
+        // Thêm
         private void btn_Them_Click(object sender, EventArgs e)
         {
             themmoi = true;
             setButton(false);
             txt_HoTen.Focus();
         }
-
+        // Sửa
         private void btn_Sua_Click(object sender, EventArgs e)
         {
             if (lsv_NhanVien.SelectedIndices.Count > 0)
@@ -118,12 +116,12 @@ namespace TranThanhTinh_QuanLyThuVien
                 MessageBox.Show("Bạn phải chọn mẫu tin cập nhật",
                 "Sửa mẫu tin");
         }
-
+        // Huỷ
         private void btn_Huy_Click(object sender, EventArgs e)
         {
             setButton(true);
         }
-
+        // Xoá
         private void btn_Xoa_Click(object sender, EventArgs e)
         {
             if (lsv_NhanVien.SelectedIndices.Count > 0)
@@ -139,7 +137,7 @@ namespace TranThanhTinh_QuanLyThuVien
             else
                 MessageBox.Show("Bạn phải chọn mẩu tin cần xóa");
         }
-
+        // Lưu
         private void btn_Luu_Click(object sender, EventArgs e)
         {
             string ngay = String.Format("{0:MM/dd/yyyy}",dtp_NgaySinh.Value);
@@ -147,7 +145,7 @@ namespace TranThanhTinh_QuanLyThuVien
             if (themmoi)
             {
                 nv.ThemNhanVien(txt_HoTen.Text, ngay, txt_DiaChi.Text,txt_SoDienThoai.Text, cbo_BangCap.SelectedValue.ToString());
-                MessageBox.Show("Thêm mới thành công");
+                MessageBox.Show("Thêm mới thành công"); 
             }
             else
             {
@@ -156,7 +154,6 @@ namespace TranThanhTinh_QuanLyThuVien
             }
             lsv_NhanVien.Items.Clear();
             HienThiNhanVien();
-            
             setNull();
         }
     }

@@ -21,3 +21,4 @@ D:\itsYarushi\StudySpace\Code\C#\LTWin_Chieu4\TranThanhTinh_QuanLyThuVien\obj\De
 D:\itsYarushi\StudySpace\Code\C#\LTWin_Chieu4\TranThanhTinh_QuanLyThuVien\obj\Debug\TranThanhTinh_QuanLyThuVien.exe
 D:\itsYarushi\StudySpace\Code\C#\LTWin_Chieu4\TranThanhTinh_QuanLyThuVien\obj\Debug\TranThanhTinh_QuanLyThuVien.pdb
 D:\itsYarushi\StudySpace\Code\C#\LTWin_Chieu4\TranThanhTinh_QuanLyThuVien\obj\Debug\TranThanhTinh_QuanLyThuVien.frmDocGia.resources
+D:\itsYarushi\StudySpace\Code\C#\LTWin_Chieu4\TranThanhTinh_QuanLyThuVien\obj\Debug\TranThanhTinh_QuanLyThuVien.frmBangCap.resources

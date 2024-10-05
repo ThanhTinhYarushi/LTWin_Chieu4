@@ -135,12 +135,16 @@ insert into BANGCAP values(N'THẠC SĨ')
 insert into BANGCAP values(N'ĐẠI HỌC')
 insert into BANGCAP values(N'CAO ĐẲNG')
 insert into BANGCAP values(N'TRUNG CẤP')
+
+
 insert into NHANVIEN values(N'PHẠM MINH VŨ','01/24/1980',N'163/30 Thành Thái
 F.14 Q.10 TPHCM','0905646162',1)
 insert into NHANVIEN values(N'NGUYỄN MINH THÀNH','04/05/1983',N'41/4 CALMETTE
 Q1 TPHCM','0908373612',2)
 insert into NHANVIEN values(N'NGUYỄN HÀ MY','04/13/1985',N'178 NAM KỲ KHỞI
 NGHĨA Q4 TPHCM','0908783274',3)
+
+
 insert into DOCGIA values(N'NGUYỄN HOÀNG MINH','02/23/1990',N'41/4 CALMETTE Q1 TPHCM',N'hoangminh@yahoo.com','12/30/2000','12/30/2012',0)
 insert into DOCGIA values(N'TRẦN VĂN CHÂU','08/29/1992',N'TRẦN HƯNG ĐẠO Q1
 TPHCM',N'vanchau@yahoo.com','11/22/2001','11/22/2013',0)
@@ -148,6 +152,8 @@ insert into DOCGIA values(N'NGUYỄN HOÀNG NAM','02/21/1980',N'4 TRẦN ĐÌNH 
 Q1 TPHCM',N'hoangmNAM@yahoo.com','12/22/2001','12/30/2012',150000)
 insert into DOCGIA values(N'TRẦN THANH PHÚC','08/19/1993',N'TRƯƠNG ĐỊNH Qtb
 TPHCM',N'thanhphuc@yahoo.com','08/09/2001','11/22/2013',50000)
+
+
 insert into SACH values(N'NHAP MON CNPM',N'PHẠM ĐÀO MINH VŨ',2007,N'NXB THỐNG
 KÊ',70000,'12/18/2008')
 insert into SACH values(N'KỸ THUẬT LẬP TRÌNH',N'TRẦN MINH THÁI',2005,N'NXB
@@ -157,3 +163,5 @@ TRẺ',90000,'12/01/2009')
 
 /* Test Querry */
 Select Manhanvien, HoTenNhanVien,Ngaysinh,Diachi,Dienthoai, TenBangcap From Nhanvien N, BANGCAP B Where N.MaBangCap=B.MaBangCap
+
+Select FROM BANGCAP AS BC

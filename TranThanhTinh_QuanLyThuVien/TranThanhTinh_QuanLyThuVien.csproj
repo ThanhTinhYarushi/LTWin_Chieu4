@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BangCap.cs" />
     <Compile Include="Database.cs" />
     <Compile Include="DocGia.cs" />
     <Compile Include="frmMain.cs">
@@ -99,6 +100,9 @@
     <Compile Include="NhanVien.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmBangCap.resx">
+      <DependentUpon>frmBangCap.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmDocGia.resx">
       <DependentUpon>frmDocGia.cs</DependentUpon>
     </EmbeddedResource>
