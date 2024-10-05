@@ -35,13 +35,14 @@ namespace TranThanhTinh_QuanLyThuVien
         // Thêm Nhân Viên
         public void ThemNhanVien(string ten, string ngaysinh, string diachi, string dienthoai, string index_bc)
         {
-            string sql = string.Format("Insert Into NhanVien Values(N'{0}', '{1}', N'{2}', '{3}',{ 4})", ten, ngaysinh, diachi, dienthoai, index_bc);
+            string sql = string.Format("Insert Into NhanVien Values(N'{0}', '{1}', N'{2}', '{3}','{4}')", ten, ngaysinh, diachi, dienthoai, index_bc);
+            
             db.ExecuteNonQuery(sql);
         }
         // Cập Nhật Nhân Viên
         public void CapNhatNhanVien(string index_nv, string hoten, string ngaysinh, string diachi, string dienthoai, string index_bc)
         {
-            string str = string.Format("Update NHANVIEN set HoTenNhanVien = N'{0}', NgaySinh = '{1}', diachi = N'{2}',dienthoai = '{3}', MaBangCap = { 4} where MaNhanVien = { 5 }", hoten, ngaysinh, diachi, dienthoai, index_bc, index_nv);
+            string str = string.Format("Update NHANVIEN set HoTenNhanVien = N'{0}', NgaySinh = '{1}', diachi = N'{2}',dienthoai = '{3}', MaBangCap = '{4}' where MaNhanVien = { 5 }", hoten, ngaysinh, diachi, dienthoai, index_bc, index_nv);
             db.ExecuteNonQuery(str);
         }
     }

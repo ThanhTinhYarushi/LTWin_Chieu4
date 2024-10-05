@@ -34,14 +34,18 @@ namespace TranThanhTinh_QuanLyThuVien
         private void HienThiNhanVien()
         {
             DataTable dt = nv.LayDSNhanvien();
+            
             for (int i = 0; i < dt.Rows.Count; i++) 
             {
                 ListViewItem lvi = lsv_NhanVien.Items.Add(dt.Rows[i][0].ToString());
+
+                
                 lvi.SubItems.Add(dt.Rows[i][1].ToString());
                 lvi.SubItems.Add(dt.Rows[i][2].ToString());
                 lvi.SubItems.Add(dt.Rows[i][3].ToString());
                 lvi.SubItems.Add(dt.Rows[i][4].ToString());
                 lvi.SubItems.Add(dt.Rows[i][5].ToString());
+
             }
         }
 
@@ -124,7 +128,7 @@ namespace TranThanhTinh_QuanLyThuVien
         {
             if (lsv_NhanVien.SelectedIndices.Count > 0)
             {
-                DialogResult dr = MessageBox.Show("Bạn có chắc xóa không ? ", "Xóa bằng cấp", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                DialogResult dr = MessageBox.Show("Bạn có chắc xóa không ? ", "Xóa Nhân Viên", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 if (dr == DialogResult.Yes)
                 {
                     nv.XoaNhanVien(lsv_NhanVien.SelectedItems[0].SubItems[0].Text);
@@ -139,7 +143,7 @@ namespace TranThanhTinh_QuanLyThuVien
         private void btn_Luu_Click(object sender, EventArgs e)
         {
             string ngay = String.Format("{0:MM/dd/yyyy}",dtp_NgaySinh.Value);
-            //Định dạng ngày tương ứng với trong CSDL SQLserver
+
             if (themmoi)
             {
                 nv.ThemNhanVien(txt_HoTen.Text, ngay, txt_DiaChi.Text,txt_SoDienThoai.Text, cbo_BangCap.SelectedValue.ToString());
@@ -150,7 +154,9 @@ namespace TranThanhTinh_QuanLyThuVien
                 nv.CapNhatNhanVien(lsv_NhanVien.SelectedItems[0].SubItems[0].Text,txt_HoTen.Text, ngay, txt_DiaChi.Text, txt_SoDienThoai.Text,cbo_BangCap.SelectedValue.ToString());
                 MessageBox.Show("Cập nhật thành công");
             }
+            lsv_NhanVien.Items.Clear();
             HienThiNhanVien();
+            
             setNull();
         }
     }

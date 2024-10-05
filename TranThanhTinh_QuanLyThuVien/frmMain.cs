@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -162,6 +163,17 @@ namespace TranThanhTinh_QuanLyThuVien
         private void tsb_Exit_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void thoátToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void vềChúngTôiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ProcessStartInfo processStart = new ProcessStartInfo("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+            Process.Start(processStart);
         }
     }
 }

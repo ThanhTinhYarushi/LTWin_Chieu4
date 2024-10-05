@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgv_DocGia = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_DocGia)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -44,26 +44,26 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label1.Location = new System.Drawing.Point(373, 47);
+            this.label1.Location = new System.Drawing.Point(396, 29);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(345, 51);
             this.label1.TabIndex = 0;
             this.label1.Text = "Lập Thẻ Độc Giả";
             // 
-            // dataGridView1
+            // dgv_DocGia
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgv_DocGia.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_DocGia.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2,
             this.Column3,
             this.Column4,
             this.Column5,
             this.Column6});
-            this.dataGridView1.Location = new System.Drawing.Point(12, 108);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(1140, 430);
-            this.dataGridView1.TabIndex = 1;
+            this.dgv_DocGia.Location = new System.Drawing.Point(12, 108);
+            this.dgv_DocGia.Name = "dgv_DocGia";
+            this.dgv_DocGia.Size = new System.Drawing.Size(1140, 430);
+            this.dgv_DocGia.TabIndex = 1;
             // 
             // Column1
             // 
@@ -106,11 +106,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1164, 617);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgv_DocGia);
             this.Controls.Add(this.label1);
             this.Name = "frmDocGia";
-            this.Text = "frmDocGia";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Text = "Độc Giả";
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_DocGia)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -119,7 +119,7 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgv_DocGia;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
