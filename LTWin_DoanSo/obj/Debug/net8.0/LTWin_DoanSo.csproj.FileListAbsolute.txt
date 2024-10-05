@@ -1,0 +1,14 @@
+C:\Users\thanh\source\repos\LTWin_Chieu4\LTWin_DoanSo\bin\Debug\net8.0\LTWin_DoanSo.exe
+C:\Users\thanh\source\repos\LTWin_Chieu4\LTWin_DoanSo\bin\Debug\net8.0\LTWin_DoanSo.deps.json
+C:\Users\thanh\source\repos\LTWin_Chieu4\LTWin_DoanSo\bin\Debug\net8.0\LTWin_DoanSo.runtimeconfig.json
+C:\Users\thanh\source\repos\LTWin_Chieu4\LTWin_DoanSo\bin\Debug\net8.0\LTWin_DoanSo.dll
+C:\Users\thanh\source\repos\LTWin_Chieu4\LTWin_DoanSo\bin\Debug\net8.0\LTWin_DoanSo.pdb
+C:\Users\thanh\source\repos\LTWin_Chieu4\LTWin_DoanSo\obj\Debug\net8.0\LTWin_DoanSo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thanh\source\repos\LTWin_Chieu4\LTWin_DoanSo\obj\Debug\net8.0\LTWin_DoanSo.AssemblyInfoInputs.cache
+C:\Users\thanh\source\repos\LTWin_Chieu4\LTWin_DoanSo\obj\Debug\net8.0\LTWin_DoanSo.AssemblyInfo.cs
+C:\Users\thanh\source\repos\LTWin_Chieu4\LTWin_DoanSo\obj\Debug\net8.0\LTWin_DoanSo.csproj.CoreCompileInputs.cache
+C:\Users\thanh\source\repos\LTWin_Chieu4\LTWin_DoanSo\obj\Debug\net8.0\LTWin_DoanSo.dll
+C:\Users\thanh\source\repos\LTWin_Chieu4\LTWin_DoanSo\obj\Debug\net8.0\refint\LTWin_DoanSo.dll
+C:\Users\thanh\source\repos\LTWin_Chieu4\LTWin_DoanSo\obj\Debug\net8.0\LTWin_DoanSo.pdb
+C:\Users\thanh\source\repos\LTWin_Chieu4\LTWin_DoanSo\obj\Debug\net8.0\LTWin_DoanSo.genruntimeconfig.cache
+C:\Users\thanh\source\repos\LTWin_Chieu4\LTWin_DoanSo\obj\Debug\net8.0\ref\LTWin_DoanSo.dll

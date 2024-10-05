@@ -1,0 +1,170 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\itsYarushi\\StudySpace\\Code\\C#\\LTWin_Chieu4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6130B2C7-BEB6-4158-BB2C-D17022425505}|TranThanhTinh_QuanLyThuVien\\TranThanhTinh_QuanLyThuVien.csproj|D:\\itsYarushi\\StudySpace\\Code\\C#\\LTWin_Chieu4\\TranThanhTinh_QuanLyThuVien\\NhanVien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6130B2C7-BEB6-4158-BB2C-D17022425505}|TranThanhTinh_QuanLyThuVien\\TranThanhTinh_QuanLyThuVien.csproj|solutionrelative:TranThanhTinh_QuanLyThuVien\\NhanVien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6130B2C7-BEB6-4158-BB2C-D17022425505}|TranThanhTinh_QuanLyThuVien\\TranThanhTinh_QuanLyThuVien.csproj|d:\\itsyarushi\\studyspace\\code\\c#\\ltwin_chieu4\\tranthanhtinh_quanlythuvien\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6130B2C7-BEB6-4158-BB2C-D17022425505}|TranThanhTinh_QuanLyThuVien\\TranThanhTinh_QuanLyThuVien.csproj|solutionrelative:tranthanhtinh_quanlythuvien\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6130B2C7-BEB6-4158-BB2C-D17022425505}|TranThanhTinh_QuanLyThuVien\\TranThanhTinh_QuanLyThuVien.csproj|D:\\itsYarushi\\StudySpace\\Code\\C#\\LTWin_Chieu4\\tranthanhtinh_quanlythuvien\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6130B2C7-BEB6-4158-BB2C-D17022425505}|TranThanhTinh_QuanLyThuVien\\TranThanhTinh_QuanLyThuVien.csproj|solutionrelative:tranthanhtinh_quanlythuvien\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6130B2C7-BEB6-4158-BB2C-D17022425505}|TranThanhTinh_QuanLyThuVien\\TranThanhTinh_QuanLyThuVien.csproj|d:\\itsyarushi\\studyspace\\code\\c#\\ltwin_chieu4\\tranthanhtinh_quanlythuvien\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6130B2C7-BEB6-4158-BB2C-D17022425505}|TranThanhTinh_QuanLyThuVien\\TranThanhTinh_QuanLyThuVien.csproj|solutionrelative:tranthanhtinh_quanlythuvien\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6130B2C7-BEB6-4158-BB2C-D17022425505}|TranThanhTinh_QuanLyThuVien\\TranThanhTinh_QuanLyThuVien.csproj|D:\\itsYarushi\\StudySpace\\Code\\C#\\LTWin_Chieu4\\tranthanhtinh_quanlythuvien\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6130B2C7-BEB6-4158-BB2C-D17022425505}|TranThanhTinh_QuanLyThuVien\\TranThanhTinh_QuanLyThuVien.csproj|solutionrelative:tranthanhtinh_quanlythuvien\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6130B2C7-BEB6-4158-BB2C-D17022425505}|TranThanhTinh_QuanLyThuVien\\TranThanhTinh_QuanLyThuVien.csproj|d:\\itsyarushi\\studyspace\\code\\c#\\ltwin_chieu4\\tranthanhtinh_quanlythuvien\\frmdocgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6130B2C7-BEB6-4158-BB2C-D17022425505}|TranThanhTinh_QuanLyThuVien\\TranThanhTinh_QuanLyThuVien.csproj|solutionrelative:tranthanhtinh_quanlythuvien\\frmdocgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6130B2C7-BEB6-4158-BB2C-D17022425505}|TranThanhTinh_QuanLyThuVien\\TranThanhTinh_QuanLyThuVien.csproj|d:\\itsyarushi\\studyspace\\code\\c#\\ltwin_chieu4\\tranthanhtinh_quanlythuvien\\docgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6130B2C7-BEB6-4158-BB2C-D17022425505}|TranThanhTinh_QuanLyThuVien\\TranThanhTinh_QuanLyThuVien.csproj|solutionrelative:tranthanhtinh_quanlythuvien\\docgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6130B2C7-BEB6-4158-BB2C-D17022425505}|TranThanhTinh_QuanLyThuVien\\TranThanhTinh_QuanLyThuVien.csproj|d:\\itsyarushi\\studyspace\\code\\c#\\ltwin_chieu4\\tranthanhtinh_quanlythuvien\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6130B2C7-BEB6-4158-BB2C-D17022425505}|TranThanhTinh_QuanLyThuVien\\TranThanhTinh_QuanLyThuVien.csproj|solutionrelative:tranthanhtinh_quanlythuvien\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6130B2C7-BEB6-4158-BB2C-D17022425505}|TranThanhTinh_QuanLyThuVien\\TranThanhTinh_QuanLyThuVien.csproj|D:\\itsYarushi\\StudySpace\\Code\\C#\\LTWin_Chieu4\\tranthanhtinh_quanlythuvien\\frmdocgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6130B2C7-BEB6-4158-BB2C-D17022425505}|TranThanhTinh_QuanLyThuVien\\TranThanhTinh_QuanLyThuVien.csproj|solutionrelative:tranthanhtinh_quanlythuvien\\frmdocgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DocGia.cs",
+              "DocumentMoniker": "D:\\itsYarushi\\StudySpace\\Code\\C#\\LTWin_Chieu4\\TranThanhTinh_QuanLyThuVien\\DocGia.cs",
+              "RelativeDocumentMoniker": "TranThanhTinh_QuanLyThuVien\\DocGia.cs",
+              "ToolTip": "D:\\itsYarushi\\StudySpace\\Code\\C#\\LTWin_Chieu4\\TranThanhTinh_QuanLyThuVien\\DocGia.cs",
+              "RelativeToolTip": "TranThanhTinh_QuanLyThuVien\\DocGia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T08:11:57.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmDocGia.cs",
+              "DocumentMoniker": "D:\\itsYarushi\\StudySpace\\Code\\C#\\LTWin_Chieu4\\TranThanhTinh_QuanLyThuVien\\frmDocGia.cs",
+              "RelativeDocumentMoniker": "TranThanhTinh_QuanLyThuVien\\frmDocGia.cs",
+              "ToolTip": "D:\\itsYarushi\\StudySpace\\Code\\C#\\LTWin_Chieu4\\TranThanhTinh_QuanLyThuVien\\frmDocGia.cs",
+              "RelativeToolTip": "TranThanhTinh_QuanLyThuVien\\frmDocGia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T08:10:58.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmMain.cs",
+              "DocumentMoniker": "D:\\itsYarushi\\StudySpace\\Code\\C#\\LTWin_Chieu4\\TranThanhTinh_QuanLyThuVien\\frmMain.cs",
+              "RelativeDocumentMoniker": "TranThanhTinh_QuanLyThuVien\\frmMain.cs",
+              "ToolTip": "D:\\itsYarushi\\StudySpace\\Code\\C#\\LTWin_Chieu4\\TranThanhTinh_QuanLyThuVien\\frmMain.cs",
+              "RelativeToolTip": "TranThanhTinh_QuanLyThuVien\\frmMain.cs",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAqwB0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T08:04:21.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmNhanVien.cs",
+              "DocumentMoniker": "D:\\itsYarushi\\StudySpace\\Code\\C#\\LTWin_Chieu4\\TranThanhTinh_QuanLyThuVien\\frmNhanVien.cs",
+              "RelativeDocumentMoniker": "TranThanhTinh_QuanLyThuVien\\frmNhanVien.cs",
+              "ToolTip": "D:\\itsYarushi\\StudySpace\\Code\\C#\\LTWin_Chieu4\\TranThanhTinh_QuanLyThuVien\\frmNhanVien.cs",
+              "RelativeToolTip": "TranThanhTinh_QuanLyThuVien\\frmNhanVien.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAA6wJUAAACSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T08:04:13.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmMain.cs [Design]",
+              "DocumentMoniker": "D:\\itsYarushi\\StudySpace\\Code\\C#\\LTWin_Chieu4\\TranThanhTinh_QuanLyThuVien\\frmMain.cs",
+              "RelativeDocumentMoniker": "TranThanhTinh_QuanLyThuVien\\frmMain.cs",
+              "ToolTip": "D:\\itsYarushi\\StudySpace\\Code\\C#\\LTWin_Chieu4\\TranThanhTinh_QuanLyThuVien\\frmMain.cs [Design]",
+              "RelativeToolTip": "TranThanhTinh_QuanLyThuVien\\frmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T06:34:50.584Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmNhanVien.cs [Design]",
+              "DocumentMoniker": "D:\\itsYarushi\\StudySpace\\Code\\C#\\LTWin_Chieu4\\TranThanhTinh_QuanLyThuVien\\frmNhanVien.cs",
+              "RelativeDocumentMoniker": "TranThanhTinh_QuanLyThuVien\\frmNhanVien.cs",
+              "ToolTip": "D:\\itsYarushi\\StudySpace\\Code\\C#\\LTWin_Chieu4\\TranThanhTinh_QuanLyThuVien\\frmNhanVien.cs [Design]",
+              "RelativeToolTip": "TranThanhTinh_QuanLyThuVien\\frmNhanVien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T05:57:50.102Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmDocGia.cs [Design]",
+              "DocumentMoniker": "D:\\itsYarushi\\StudySpace\\Code\\C#\\LTWin_Chieu4\\TranThanhTinh_QuanLyThuVien\\frmDocGia.cs",
+              "RelativeDocumentMoniker": "TranThanhTinh_QuanLyThuVien\\frmDocGia.cs",
+              "ToolTip": "D:\\itsYarushi\\StudySpace\\Code\\C#\\LTWin_Chieu4\\TranThanhTinh_QuanLyThuVien\\frmDocGia.cs [Design]",
+              "RelativeToolTip": "TranThanhTinh_QuanLyThuVien\\frmDocGia.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T05:59:04.752Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NhanVien.cs",
+              "DocumentMoniker": "D:\\itsYarushi\\StudySpace\\Code\\C#\\LTWin_Chieu4\\TranThanhTinh_QuanLyThuVien\\NhanVien.cs",
+              "RelativeDocumentMoniker": "TranThanhTinh_QuanLyThuVien\\NhanVien.cs",
+              "ToolTip": "D:\\itsYarushi\\StudySpace\\Code\\C#\\LTWin_Chieu4\\TranThanhTinh_QuanLyThuVien\\NhanVien.cs",
+              "RelativeToolTip": "TranThanhTinh_QuanLyThuVien\\NhanVien.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T07:10:04.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Database.cs",
+              "DocumentMoniker": "D:\\itsYarushi\\StudySpace\\Code\\C#\\LTWin_Chieu4\\TranThanhTinh_QuanLyThuVien\\Database.cs",
+              "RelativeDocumentMoniker": "TranThanhTinh_QuanLyThuVien\\Database.cs",
+              "ToolTip": "D:\\itsYarushi\\StudySpace\\Code\\C#\\LTWin_Chieu4\\TranThanhTinh_QuanLyThuVien\\Database.cs",
+              "RelativeToolTip": "TranThanhTinh_QuanLyThuVien\\Database.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T08:03:46.316Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

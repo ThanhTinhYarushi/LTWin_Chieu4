@@ -1,0 +1,7 @@
+C:\Users\thanh\source\repos\LTWin_Chieu4\LTWin_Chieu4\bin\Debug\LTWin_Chieu4.exe.config
+C:\Users\thanh\source\repos\LTWin_Chieu4\LTWin_Chieu4\bin\Debug\LTWin_Chieu4.exe
+C:\Users\thanh\source\repos\LTWin_Chieu4\LTWin_Chieu4\bin\Debug\LTWin_Chieu4.pdb
+C:\Users\thanh\source\repos\LTWin_Chieu4\LTWin_Chieu4\obj\Debug\LTWin_Chieu4.csproj.AssemblyReference.cache
+C:\Users\thanh\source\repos\LTWin_Chieu4\LTWin_Chieu4\obj\Debug\LTWin_Chieu4.csproj.CoreCompileInputs.cache
+C:\Users\thanh\source\repos\LTWin_Chieu4\LTWin_Chieu4\obj\Debug\LTWin_Chieu4.exe
+C:\Users\thanh\source\repos\LTWin_Chieu4\LTWin_Chieu4\obj\Debug\LTWin_Chieu4.pdb
