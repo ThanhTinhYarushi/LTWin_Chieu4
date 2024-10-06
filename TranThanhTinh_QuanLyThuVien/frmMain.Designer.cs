@@ -121,7 +121,8 @@
             // 
             this.tsm_NhanVien.Image = ((System.Drawing.Image)(resources.GetObject("tsm_NhanVien.Image")));
             this.tsm_NhanVien.Name = "tsm_NhanVien";
-            this.tsm_NhanVien.Size = new System.Drawing.Size(182, 22);
+            this.tsm_NhanVien.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D1)));
+            this.tsm_NhanVien.Size = new System.Drawing.Size(222, 22);
             this.tsm_NhanVien.Text = "&Nhân Viên";
             this.tsm_NhanVien.Click += new System.EventHandler(this.tsb_NhanVien_Click);
             // 
@@ -129,7 +130,8 @@
             // 
             this.tsmDocGia.Image = ((System.Drawing.Image)(resources.GetObject("tsmDocGia.Image")));
             this.tsmDocGia.Name = "tsmDocGia";
-            this.tsmDocGia.Size = new System.Drawing.Size(182, 22);
+            this.tsmDocGia.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D2)));
+            this.tsmDocGia.Size = new System.Drawing.Size(222, 22);
             this.tsmDocGia.Text = "&Độc Giả";
             this.tsmDocGia.Click += new System.EventHandler(this.tsb_DocGia_Click);
             // 
@@ -137,7 +139,8 @@
             // 
             this.tsmSach.Image = ((System.Drawing.Image)(resources.GetObject("tsmSach.Image")));
             this.tsmSach.Name = "tsmSach";
-            this.tsmSach.Size = new System.Drawing.Size(182, 22);
+            this.tsmSach.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D3)));
+            this.tsmSach.Size = new System.Drawing.Size(222, 22);
             this.tsmSach.Text = "&Sách";
             this.tsmSach.Click += new System.EventHandler(this.tsb_Sach_Click);
             // 
@@ -145,7 +148,8 @@
             // 
             this.tsmBangCap.Image = ((System.Drawing.Image)(resources.GetObject("tsmBangCap.Image")));
             this.tsmBangCap.Name = "tsmBangCap";
-            this.tsmBangCap.Size = new System.Drawing.Size(182, 22);
+            this.tsmBangCap.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D4)));
+            this.tsmBangCap.Size = new System.Drawing.Size(222, 22);
             this.tsmBangCap.Text = "&Bằng Cấp";
             this.tsmBangCap.Click += new System.EventHandler(this.tsb_BangCap_Click);
             // 
@@ -153,7 +157,8 @@
             // 
             this.tsmPhieuMuon.Image = ((System.Drawing.Image)(resources.GetObject("tsmPhieuMuon.Image")));
             this.tsmPhieuMuon.Name = "tsmPhieuMuon";
-            this.tsmPhieuMuon.Size = new System.Drawing.Size(182, 22);
+            this.tsmPhieuMuon.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D5)));
+            this.tsmPhieuMuon.Size = new System.Drawing.Size(222, 22);
             this.tsmPhieuMuon.Text = "&Phiếu Mượn";
             this.tsmPhieuMuon.Click += new System.EventHandler(this.tsb_PhieuMuon_Click);
             // 
@@ -161,7 +166,8 @@
             // 
             this.tsmPhieuThu.Image = ((System.Drawing.Image)(resources.GetObject("tsmPhieuThu.Image")));
             this.tsmPhieuThu.Name = "tsmPhieuThu";
-            this.tsmPhieuThu.Size = new System.Drawing.Size(182, 22);
+            this.tsmPhieuThu.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D6)));
+            this.tsmPhieuThu.Size = new System.Drawing.Size(222, 22);
             this.tsmPhieuThu.Text = "&Phiếu Thu";
             this.tsmPhieuThu.Click += new System.EventHandler(this.tsb_PhieuThu_Click);
             // 
@@ -169,7 +175,8 @@
             // 
             this.tsmChiTietPhieuMuon.Image = ((System.Drawing.Image)(resources.GetObject("tsmChiTietPhieuMuon.Image")));
             this.tsmChiTietPhieuMuon.Name = "tsmChiTietPhieuMuon";
-            this.tsmChiTietPhieuMuon.Size = new System.Drawing.Size(182, 22);
+            this.tsmChiTietPhieuMuon.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D7)));
+            this.tsmChiTietPhieuMuon.Size = new System.Drawing.Size(222, 22);
             this.tsmChiTietPhieuMuon.Text = "&Chi TIết Phiếu Mượn";
             this.tsmChiTietPhieuMuon.Click += new System.EventHandler(this.tsb_ChiTietPhieuMuon_Click);
             // 
@@ -184,7 +191,8 @@
             // vềChúngTôiToolStripMenuItem
             // 
             this.vềChúngTôiToolStripMenuItem.Name = "vềChúngTôiToolStripMenuItem";
-            this.vềChúngTôiToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.vềChúngTôiToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.H)));
+            this.vềChúngTôiToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
             this.vềChúngTôiToolStripMenuItem.Text = "&Về Chúng Tôi ...";
             this.vềChúngTôiToolStripMenuItem.Click += new System.EventHandler(this.vềChúngTôiToolStripMenuItem_Click);
             // 

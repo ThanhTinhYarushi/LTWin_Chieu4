@@ -157,3 +157,7 @@ TRẺ',90000,'12/01/2009')
 
 /* Test Querry */
 Select Manhanvien, HoTenNhanVien,Ngaysinh,Diachi,Dienthoai, TenBangcap From Nhanvien N, BANGCAP B Where N.MaBangCap=B.MaBangCap
+
+INSERT INTO PHIEUTHUTIEN (SoTienNo, SoTienThu, MaDocGia, MaNhanVien) VALUES (0, 50000, 1, 1);
+INSERT INTO PHIEUTHUTIEN (SoTienNo, SoTienThu, MaDocGia, MaNhanVien) VALUES (150000, 100000, 3, 2);
+INSERT INTO PHIEUTHUTIEN (SoTienNo, SoTienThu, MaDocGia, MaNhanVien) VALUES (50000, 50000, 4, 3);

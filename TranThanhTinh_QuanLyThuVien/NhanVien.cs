@@ -28,7 +28,8 @@ namespace TranThanhTinh_QuanLyThuVien
         // Xoá Nhân Viên
         public void XoaNhanVien(string index_nv)
         {
-            string sql = "Delete from NhanVien where MaNhanVien = " + index_nv;
+            //string sql = "Delete from NhanVien where MaNhanVien = " + index_nv;
+            string sql = string.Format("Delete from NhanVien where MaNhanVien = '{0}'", index_nv);
             db.ExecuteNonQuery(sql);
         }
         // Thêm Nhân Viên
@@ -41,8 +42,19 @@ namespace TranThanhTinh_QuanLyThuVien
         // Cập Nhật Nhân Viên
         public void CapNhatNhanVien(string index_nv, string hoten, string ngaysinh, string diachi, string dienthoai, string index_bc)
         {
-            string str = string.Format("Update NHANVIEN set HoTenNhanVien = N'{0}', NgaySinh = '{1}', diachi = N'{2}',dienthoai = '{3}', MaBangCap = '{4}' where MaNhanVien = { 5 }", hoten, ngaysinh, diachi, dienthoai, index_bc, index_nv);
-            db.ExecuteNonQuery(str);
+            //string str = string.Format("Update NHANVIEN set HoTenNhanVien = N'{0}', NgaySinh = '{1}', diachi = N'{2}',dienthoai = '{3}', MaBangCap = '{4}' where MaNhanVien = { 5 }", hoten, ngaysinh, diachi, dienthoai, index_bc, index_nv);
+            //db.ExecuteNonQuery(str);
+            string str = "Update NhanVien set HoTenNhanVien = @hoten, NgaySinh = @ngaysinh, DiaChi = @diachi, DienThoai = @dienthoai, MaBangCap = @index_bc where MaNhanVien = @index_nv";
+            var parameters = new Dictionary<string, object>()
+                {
+                    { "@hoten", hoten },
+                    { "@ngaysinh", ngaysinh },
+                    { "@diachi", diachi },
+                    { "@dienthoai", dienthoai },
+                    { "@index_bc", index_bc },
+                    { "@index_nv", index_nv }
+                };
+            db.ExecuteNonQuery(str, parameters);
         }
     }
 }

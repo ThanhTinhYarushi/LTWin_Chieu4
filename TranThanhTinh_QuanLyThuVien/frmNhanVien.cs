@@ -39,13 +39,11 @@ namespace TranThanhTinh_QuanLyThuVien
             {
                 ListViewItem lvi = lsv_NhanVien.Items.Add(dt.Rows[i][0].ToString());
 
-                
                 lvi.SubItems.Add(dt.Rows[i][1].ToString());
                 lvi.SubItems.Add(dt.Rows[i][2].ToString());
                 lvi.SubItems.Add(dt.Rows[i][3].ToString());
                 lvi.SubItems.Add(dt.Rows[i][4].ToString());
                 lvi.SubItems.Add(dt.Rows[i][5].ToString());
-
             }
         }
 
@@ -143,20 +141,46 @@ namespace TranThanhTinh_QuanLyThuVien
         private void btn_Luu_Click(object sender, EventArgs e)
         {
             string ngay = String.Format("{0:MM/dd/yyyy}",dtp_NgaySinh.Value);
+            if (string.IsNullOrEmpty(txt_HoTen.Text) || string.IsNullOrEmpty(txt_DiaChi.Text) || string.IsNullOrEmpty(txt_SoDienThoai.Text))
+            {
+                MessageBox.Show("Bạn phải nhập đầy đủ thông tin", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            //if (!System.Text.RegularExpressions.Regex.IsMatch(txt_SoDienThoai.Text, @"^\d{10}$"))
+            //{
+            //    MessageBox.Show("Số điện thoại không hợp lệ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            //    return;
+            //}
 
-            if (themmoi)
+            try
             {
-                nv.ThemNhanVien(txt_HoTen.Text, ngay, txt_DiaChi.Text,txt_SoDienThoai.Text, cbo_BangCap.SelectedValue.ToString());
-                MessageBox.Show("Thêm mới thành công");
+                if (themmoi)
+                {
+                    nv.ThemNhanVien(txt_HoTen.Text, ngay, txt_DiaChi.Text, txt_SoDienThoai.Text, cbo_BangCap.SelectedValue.ToString());
+                    MessageBox.Show("Thêm mới thành công");
+                }
+                else
+                {
+                    nv.CapNhatNhanVien(lsv_NhanVien.SelectedItems[0].SubItems[0].Text, txt_HoTen.Text, ngay, txt_DiaChi.Text, txt_SoDienThoai.Text, cbo_BangCap.SelectedValue.ToString());
+                    MessageBox.Show("Cập nhật thành công");
+                }
             }
-            else
+            catch (Exception ex)
             {
-                nv.CapNhatNhanVien(lsv_NhanVien.SelectedItems[0].SubItems[0].Text,txt_HoTen.Text, ngay, txt_DiaChi.Text, txt_SoDienThoai.Text,cbo_BangCap.SelectedValue.ToString());
-                MessageBox.Show("Cập nhật thành công");
+                MessageBox.Show("Có lỗi xảy ra: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            //if (themmoi)
+            //{
+            //    nv.ThemNhanVien(txt_HoTen.Text, ngay, txt_DiaChi.Text,txt_SoDienThoai.Text, cbo_BangCap.SelectedValue.ToString());
+            //    MessageBox.Show("Thêm mới thành công");
+            //}
+            //else
+            //{
+            //    nv.CapNhatNhanVien(lsv_NhanVien.SelectedItems[0].SubItems[0].Text,txt_HoTen.Text, ngay, txt_DiaChi.Text, txt_SoDienThoai.Text,cbo_BangCap.SelectedValue.ToString());
+            //    MessageBox.Show("Cập nhật thành công");
+            //}
             lsv_NhanVien.Items.Clear();
             HienThiNhanVien();
-            
             setNull();
         }
 

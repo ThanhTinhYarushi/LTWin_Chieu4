@@ -35,6 +35,27 @@ namespace TranThanhTinh_QuanLyThuVien
             sqlcmd.ExecuteNonQuery();//Lenh hien lenh Them/Xoa/Sua
             sqlConn.Close();//Dong ket noi
         }
+
+        // hàm này như trên nhưng được dùng 2 tham số, 
+        public void ExecuteNonQuery(string strSQL, Dictionary<string, object> parameters = null)
+        {
+            using (SqlCommand sqlcmd = new SqlCommand(strSQL, sqlConn))
+            {
+                // Kiểm tra và thêm các tham số (nếu có)
+                if (parameters != null)
+                {
+                    foreach (var param in parameters)
+                    {
+                        sqlcmd.Parameters.AddWithValue(param.Key, param.Value);
+                    }
+                }
+
+                sqlConn.Open(); // Mở kết nối
+                sqlcmd.ExecuteNonQuery(); // Thực thi lệnh
+                sqlConn.Close(); // Đóng kết nối
+            }
+        }
+
         // ko bit lam gi luon
         public object ExecuteScalar(string sqlStr)
         {
@@ -43,6 +64,24 @@ namespace TranThanhTinh_QuanLyThuVien
             object result = sqlcmd.ExecuteScalar(); // Thực thi truy vấn và nhận giá trị đầu tiên
             sqlConn.Close(); // Đóng kết nối
             return result; // Trả về kết quả
+        }
+        // ko bit lam gi luon
+        public object ExecuteScalar(string sqlStr, Dictionary<string, object> parameters = null)
+        {
+            using (SqlCommand sqlcmd = new SqlCommand(sqlStr, sqlConn))
+            {
+                if (parameters != null)
+                {
+                    foreach (var param in parameters)
+                    {
+                        sqlcmd.Parameters.AddWithValue(param.Key, param.Value);
+                    }
+                }
+                sqlConn.Open();
+                object result = sqlcmd.ExecuteScalar();
+                sqlConn.Close();
+                return result;
+            }
         }
     }
 }
