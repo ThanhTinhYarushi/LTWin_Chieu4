@@ -159,5 +159,11 @@ namespace TranThanhTinh_QuanLyThuVien
             
             setNull();
         }
+
+        private void btn_Refresh_Click(object sender, EventArgs e)
+        {
+            setNull();
+            setButton(true);
+        }
     }
 }

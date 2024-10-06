@@ -47,6 +47,7 @@
             this.btn_Xoa = new System.Windows.Forms.Button();
             this.btn_Thoat = new System.Windows.Forms.Button();
             this.btn_Huy = new System.Windows.Forms.Button();
+            this.btn_Refresh = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -255,11 +256,22 @@
             this.btn_Huy.UseVisualStyleBackColor = true;
             this.btn_Huy.Click += new System.EventHandler(this.btn_Huy_Click);
             // 
+            // btn_Refresh
+            // 
+            this.btn_Refresh.Location = new System.Drawing.Point(16, 299);
+            this.btn_Refresh.Name = "btn_Refresh";
+            this.btn_Refresh.Size = new System.Drawing.Size(99, 29);
+            this.btn_Refresh.TabIndex = 9;
+            this.btn_Refresh.Text = "Refresh";
+            this.btn_Refresh.UseVisualStyleBackColor = true;
+            this.btn_Refresh.Click += new System.EventHandler(this.btn_Refresh_Click);
+            // 
             // frmNhanVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1161, 695);
+            this.Controls.Add(this.btn_Refresh);
             this.Controls.Add(this.btn_Thoat);
             this.Controls.Add(this.btn_Huy);
             this.Controls.Add(this.btn_Luu);
@@ -302,5 +314,6 @@
         private System.Windows.Forms.Button btn_Huy;
         private System.Windows.Forms.ComboBox cbo_BangCap;
         private System.Windows.Forms.TextBox txt_DiaChi;
+        private System.Windows.Forms.Button btn_Refresh;
     }
 }

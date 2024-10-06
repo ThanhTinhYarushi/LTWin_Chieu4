@@ -28,8 +28,7 @@ namespace TranThanhTinh_QuanLyThuVien
         // Xoá Nhân Viên
         public void XoaNhanVien(string index_nv)
         {
-            string sql = "Delete from NhanVien where MaNhanVien = " +
-            index_nv;
+            string sql = "Delete from NhanVien where MaNhanVien = " + index_nv;
             db.ExecuteNonQuery(sql);
         }
         // Thêm Nhân Viên
