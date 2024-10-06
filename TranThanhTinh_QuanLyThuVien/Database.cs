@@ -35,5 +35,14 @@ namespace TranThanhTinh_QuanLyThuVien
             sqlcmd.ExecuteNonQuery();//Lenh hien lenh Them/Xoa/Sua
             sqlConn.Close();//Dong ket noi
         }
+        // ko bit lam gi luon
+        public object ExecuteScalar(string sqlStr)
+        {
+            SqlCommand sqlcmd = new SqlCommand(sqlStr, sqlConn);
+            sqlConn.Open(); // Mở kết nối
+            object result = sqlcmd.ExecuteScalar(); // Thực thi truy vấn và nhận giá trị đầu tiên
+            sqlConn.Close(); // Đóng kết nối
+            return result; // Trả về kết quả
+        }
     }
 }
