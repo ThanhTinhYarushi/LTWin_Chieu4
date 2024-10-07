@@ -316,7 +316,7 @@
             this.Controls.Add(this.lsv_Sach);
             this.Controls.Add(this.label1);
             this.Name = "frmSach";
-            this.Text = "frmSach";
+            this.Text = "Sách";
             this.g_Sach.ResumeLayout(false);
             this.g_Sach.PerformLayout();
             this.ResumeLayout(false);

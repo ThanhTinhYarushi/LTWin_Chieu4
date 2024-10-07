@@ -27,6 +27,25 @@ namespace TranThanhTinh_QuanLyThuVien
             da.Fill(ds);
             return ds.Tables[0];
         }
+        // hàm này như trên nhưng được dùng 2 tham số,
+        public DataTable Execute(string sqlStr, Dictionary<string, object> parameters = null)
+        {
+            using (SqlCommand sqlcmd = new SqlCommand(sqlStr, sqlConn))
+            {
+                if (parameters != null)
+                {
+                    foreach (var param in parameters)
+                    {
+                        sqlcmd.Parameters.AddWithValue(param.Key, param.Value);
+                    }
+                }
+
+                da = new SqlDataAdapter(sqlcmd);
+                ds = new DataSet();
+                da.Fill(ds);
+                return ds.Tables[0];
+            }
+        }
         //Phuong thuc de thuc hien cac lenh Them, Xoa, Sua
         public void ExecuteNonQuery(string strSQL)
         {
@@ -56,7 +75,7 @@ namespace TranThanhTinh_QuanLyThuVien
             }
         }
 
-        // ko bit lam gi luon
+        // Trả về giá trị đơn
         public object ExecuteScalar(string sqlStr)
         {
             SqlCommand sqlcmd = new SqlCommand(sqlStr, sqlConn);
@@ -65,7 +84,7 @@ namespace TranThanhTinh_QuanLyThuVien
             sqlConn.Close(); // Đóng kết nối
             return result; // Trả về kết quả
         }
-        // ko bit lam gi luon
+        // trả về giá trị đơn
         public object ExecuteScalar(string sqlStr, Dictionary<string, object> parameters = null)
         {
             using (SqlCommand sqlcmd = new SqlCommand(sqlStr, sqlConn))
@@ -82,6 +101,31 @@ namespace TranThanhTinh_QuanLyThuVien
                 sqlConn.Close();
                 return result;
             }
+        }
+
+        // Dành riêng cho độc giả
+        public void Update(string query, DataTable dataTable)
+        {
+            using (SqlDataAdapter adapter = new SqlDataAdapter(query, sqlConn))
+            {
+                SqlCommandBuilder commandBuilder = new SqlCommandBuilder(adapter);
+                adapter.Update(dataTable);
+            }
+        }
+        public Database(string serverName, string databaseName, bool integratedSecurity, string userName = "", string password = "")
+        {
+            string strCnn;
+
+            if (integratedSecurity)
+            {
+                strCnn = $"Data Source={serverName}; Initial Catalog={databaseName}; Integrated Security=True";
+            }
+            else
+            {
+                strCnn = $"Data Source={serverName}; Initial Catalog={databaseName}; User ID={userName}; Password={password}";
+            }
+
+            sqlConn = new SqlConnection(strCnn);
         }
     }
 }
